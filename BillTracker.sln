@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillTracker", "BillTracker\BillTracker.csproj", "{05D012D6-61CE-47E2-9542-048D2875C762}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{841EACC5-3862-42B4-BB6F-D64F37E5F4A1}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+		Db\create-database.sql = Db\create-database.sql
+		Db\run-initialization.sh = Db\run-initialization.sh
+		Db\entrypoint.sh = Db\entrypoint.sh
+		Db\Dockerfile = Db\Dockerfile
+		readme.md = readme.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BillTracker.Tests", "BillTracker.Tests\BillTracker.Tests.csproj", "{83CCCB59-1933-4945-9FF7-0AB58C33BB49}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05D012D6-61CE-47E2-9542-048D2875C762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D012D6-61CE-47E2-9542-048D2875C762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D012D6-61CE-47E2-9542-048D2875C762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D012D6-61CE-47E2-9542-048D2875C762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CCCB59-1933-4945-9FF7-0AB58C33BB49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CCCB59-1933-4945-9FF7-0AB58C33BB49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CCCB59-1933-4945-9FF7-0AB58C33BB49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CCCB59-1933-4945-9FF7-0AB58C33BB49}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BAFCC8D9-1764-44F5-8E8A-00282B3E15B3}
+	EndGlobalSection
+EndGlobal
